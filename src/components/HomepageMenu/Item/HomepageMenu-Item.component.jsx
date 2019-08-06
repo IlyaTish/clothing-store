@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
-import '../HomepageMenu.sass';
+import '../HomepageMenu.styles.sass';
 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
   <div className={`${size} homepage-menu__item`} onClick={() => history.push(`${match.url}${linkUrl}`)} >

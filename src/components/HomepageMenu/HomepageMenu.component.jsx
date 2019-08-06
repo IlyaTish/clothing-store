@@ -1,8 +1,8 @@
 import React from "react";
 
-import MenuItem from "./MenuItem/HomepageMenu-MenuItem";
+import MenuItem from "./Item/HomepageMenu-Item.component";
 
-import './HomepageMenu.sass';
+import './HomepageMenu.styles.sass';
 
 class HomepageMenu extends React.Component {
   constructor() {
